@@ -10,7 +10,7 @@ Can be found on telegram as [Selena](https://t.me/Missselenabot)
 
 Deploy Miss Selena to Heroku:
 
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Khushmeet-op/Missselenabot/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Khushmeet-op/Missselenabot"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Credits
 **Thanks to these projects which helped me a lot to make this awesome bot**
