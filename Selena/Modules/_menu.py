@@ -17,7 +17,7 @@ from julia import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
+db = client["missselenabot"]
 approved_users = db.approve
 pagenumber = db.pagenumber
 
@@ -35,7 +35,7 @@ async def is_register_admin(chat, user):
 
 
 PM_START_TEXT = (
-    "[Julia](https://telegra.ph/MissJulieRobot-10-24)"
+    "[selena](https://telegra.ph/MissJulieRobot-10-24)"
     + " "
     + "**"
     + "V"
@@ -65,22 +65,22 @@ async def start(event):
             buttons=[
                 [
                     Button.url(
-                        "Add To Group  👥", "t.me/MissJuliaRobot?startgroup=true"
+                        "Add To Group  👥", "t.me/Missselenabot?startgroup=true"
                     ),
                     Button.url(
-                        "Support Group 🎙️", "https://t.me/MissJuliaRobotSupport"
+                        "Support Group 🎙️", "https://t.me/MissselenabotSupport"
                     ),
                 ],
                 [
                     Button.inline("Commands ❓", data="help_menu"),
                     Button.url(
-                        "Source 📀", "https://github.com/MissJuliaRobot/MissJuliaRobot"
+                        "Source 📀", "https://github.com/Khushmeet-op/Missselenabot"
                     ),
                 ],
                 [
-                    Button.url("Channel 🗞️", url="https://t.me/MissJuliaRobotNews/2"),
+                    Button.url("Channel 🗞️", url="https://t.me/MissselenabotNews/2"),
                     Button.url("Webiste 🌐", "missjuliarobot.unaux.com"),
-                    Button.url("Donate 💲", "https://ko-fi.com/missjuliarobot"),
+                    Button.url("Donate 💲", "https://ko-fi.com/missselenabot"),
                 ],
                 [Button.inline("Close Menu 🔒", data="start_again")],
             ],
@@ -108,16 +108,16 @@ async def reopen_again(event):
             buttons=[
                 [
                     Button.url(
-                        "Add To Group  👥", "t.me/MissJuliaRobot?startgroup=true"
+                        "Add To Group  👥", "t.me/Missselenabot?startgroup=true"
                     ),
                     Button.url(
-                        "Support Group 🎙️", "https://t.me/MissJuliaRobotSupport"
+                        "Support Group 🎙️", "https://t.me/MissselenabotSupport"
                     ),
                 ],
                 [
                     Button.inline("Commands ❓", data="help_menu"),
                     Button.url(
-                        "Source 📀", "https://github.com/MissJuliaRobot/MissJuliaRobot"
+                        "Source 📀", "https://github.com/Khushmeet-op/Missselenabot"
                     ),
                 ],
                 [
