@@ -8,7 +8,7 @@
 
 Can be found on telegram as [Selena](https://t.me/Missselenabot)
 
-Deploy Julia to Heroku:
+Deploy Miss Selena to Heroku:
 
 <p align="left"><a href="https://heroku.com/deploy?template=https://github.com/Khushmeet-op/Missselenabot/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
