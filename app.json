@@ -1,10 +1,10 @@
 {
-  "name": "MissJuliaRobot",
+  "name": "Miss Selena Bot",
   "description": "A Telegram Group Management Bot",
   "logo": "https://telegra.ph/file/517f97b74ad036b2ef3c9.jpg",
   "keywords": ["telethon", "sqlalchemy", "mongodb"],
-  "repository": "https://github.com/MissJuliaRobot/MissJuliaRobot.git",
-  "success_url": "http://missjuliarobot.unaux.com",
+  "repository": "https://github.com/Khushmeet-op/Missselenabot",
+  "success_url": "http://Missselenabot.unaux.com",
   "env": {
     "API_KEY": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -33,7 +33,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Copy paste the repository url here (fork/official)",
-      "value": "https://github.com/MissJuliaRobot/MissJuliaRobot",
+      "value": "https://github.com/Khushmeet-op/Missselenabot",
       "required": false
     },
     "OPENWEATHERMAP_ID": {
