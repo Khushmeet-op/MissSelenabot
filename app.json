@@ -104,7 +104,7 @@
     "MONGO_DB_URI": {
       "description": "Required for database connections",
       "value": "",
-      "required": true
+      "required": false
     },
     "WOLFRAM_ID": {
       "description": "Required for Assistant module, get your own key from wolframalpha.com",
